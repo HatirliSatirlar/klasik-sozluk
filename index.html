@@ -1258,7 +1258,7 @@ function certificate(){
   clearSes();var b=frame('Kervanbaşı Belgesi','Tebrikler!');$('#gx').onclick=function(){home('sandik')};
   var d=new Date(),ds=d.toLocaleDateString('tr-TR',{day:'numeric',month:'long',year:'numeric'});
   b.innerHTML='<div class="cert"><div class="k">KLASİK ESERLER SÖZLÜĞÜ · DİLİMİZİN ZENGİNLİKLERİ PROJESİ</div><div style="font-size:3rem;margin:10px 0 0">👑</div><h2>Kervanbaşı Belgesi</h2>'+
-    '<p>Antalya’dan Kayseri’ye 8 kervansarayı geçen bu yolcu, <b>'+WORDS.length+'</b> eski ve güzel kelimeyi hazine sandığına kattı ve <b>'+totalStars()+' / 24</b> yıldız topladı.</p><p style="margin-top:14px"><b>'+esc(ds)+'</b> · '+LV[ST.lvl].n+' seviyesi</p></div>'+
+    '<p>Antalya’dan Kayseri’ye 8 kervansarayı geçen bu yolcu, <b>'+WORDS.length+'</b> güzel kelimeyi hazine sandığına kattı ve <b>'+totalStars()+' / 24</b> yıldız topladı.</p><p style="margin-top:14px"><b>'+esc(ds)+'</b> · '+LV[ST.lvl].n+' seviyesi</p></div>'+
     '<div class="row"><button class="btn" id="bk">Hazine Sandığı’na dön</button></div>';
   S_win();confetti(120);$('#bk').onclick=function(){home('sandik')};
 }
